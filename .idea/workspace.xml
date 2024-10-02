@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9043aeaf-ec3c-4100-ac94-6c89b14db372" name="Changes" comment="creacion de superclases, sus atributos. getter y setters">
+    <list default="true" id="9043aeaf-ec3c-4100-ac94-6c89b14db372" name="Changes" comment="creacion de metodos reproducir y megusta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelos/Canciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/Canciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelos/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelos/Canciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Cancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelos/Podcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Podcast.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1727877086318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creacion de metodos reproducir y megusta">
+      <option name="closed" value="true" />
+      <created>1727878654334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727878654334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creacion de superclases, sus atributos. getter y setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de superclases, sus atributos. getter y setters" />
+    <MESSAGE value="creacion de metodos reproducir y megusta" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de metodos reproducir y megusta" />
   </component>
 </project>

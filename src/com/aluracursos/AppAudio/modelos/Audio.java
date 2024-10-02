@@ -1,10 +1,10 @@
-package modelos;
+package com.aluracursos.AppAudio.modelos;
 
 public class Audio {
     private String titulo;
     private int duracion;
     private int totalDeReproducciones;
-    private int meGusta;
+    private int totalDeMeGusta;
     private int clasificacion;
 
     public String getTitulo() {
@@ -31,12 +31,12 @@ public class Audio {
         this.totalDeReproducciones = totalDeReproducciones;
     }
 
-    public int getMeGusta() {
-        return meGusta;
+    public int getTotalDeMeGusta() {
+        return totalDeMeGusta;
     }
 
-    public void setMeGusta(int meGusta) {
-        this.meGusta = meGusta;
+    public void setTotalDeMeGusta(int totalDeMeGusta) {
+        this.totalDeMeGusta = totalDeMeGusta;
     }
 
     public int getClasificacion() {
@@ -47,12 +47,12 @@ public class Audio {
         this.clasificacion = clasificacion;
     }
 
-    public void totalmeGusta(){
-        meGusta++;
+    public void meGusta(){
+        this.totalDeMeGusta++;
     }
 
     public void reproducir(){
-        totalDeReproducciones++;
+        this.totalDeReproducciones++;
     }
 
 }
