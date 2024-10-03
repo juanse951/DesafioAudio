@@ -5,7 +5,8 @@ public class Audio {
     private int duracion;
     private int totalDeReproducciones;
     private int totalDeMeGusta;
-    private int clasificacion;
+    private int clasificacionReproducciones;
+    private int clasificacionesMeGusta;
 
     public String getTitulo() {
         return titulo;
@@ -39,12 +40,48 @@ public class Audio {
         this.totalDeMeGusta = totalDeMeGusta;
     }
 
-    public int getClasificacion() {
-        return clasificacion;
+    public int getClasificacionesMeGusta() {
+        if(getTotalDeMeGusta() >= 1000){
+            return 5;
+        } else if (getTotalDeMeGusta() >= 800){
+            return 4;
+        } else if (getTotalDeMeGusta() >= 600){
+            return 3;
+        } else if (getTotalDeMeGusta() >= 400) {
+            return 2;
+        } else if(getTotalDeMeGusta() >= 200) {
+            return 1;
+        } else if(getTotalDeMeGusta() < 200){
+            return 0;
+        }else {
+            return 0;
+        }
     }
 
-    public void setClasificacion(int clasificacion) {
-        this.clasificacion = clasificacion;
+    public void setClasificacionesMeGusta(int clasificacionesMeGusta) {
+        this.clasificacionesMeGusta = clasificacionesMeGusta;
+    }
+
+    public int getClasificacionReproducciones() {
+        if(getTotalDeReproducciones() >= 10000){
+            return 5;
+        } else if (getTotalDeReproducciones() >= 8000){
+            return 4;
+        } else if (getTotalDeReproducciones() >= 6000){
+            return 3;
+        } else if (getTotalDeReproducciones() >= 4000) {
+            return 2;
+        } else if(getTotalDeReproducciones() >= 2000) {
+            return 1;
+        } else if(getTotalDeReproducciones() < 2000){
+            return 0;
+        }else {
+            return 0;
+        }
+    }
+
+    public void setClasificacionReproducciones(int clasificacionReproducciones) {
+        this.clasificacionReproducciones = clasificacionReproducciones;
     }
 
     public void meGusta(){

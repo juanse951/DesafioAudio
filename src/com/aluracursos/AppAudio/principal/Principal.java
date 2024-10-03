@@ -9,39 +9,43 @@ public class Principal {
 
         Cancion cancion = new Cancion();
         Podcast podcast = new Podcast();
-        MisFavoritos favoritos = new MisFavoritos();
-
-        cancion.setTitulo("Forever");
-        cancion.setCantante("Kiss");
-        cancion.aumentarMeGusta();
-        cancion.reproducirCancion();
-
-        podcast.setPresentador("CAfe.tech");
-        podcast.setTitulo("El Señor");
-
-        favoritos.adicione(podcast);
-        favoritos.adicione(cancion);
+        MisFavoritos reproducciones = new MisFavoritos();
+        MisFavoritos meGustas = new MisFavoritos();
 
         //cancion
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 700; i++) {
             cancion.meGusta();
         }
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 0; i < 5000; i++) {
             cancion.reproducir();
         }
         //podcast
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             podcast.meGusta();
         }
-        for (int i = 0; i < 8000; i++) {
+        for (int i = 0; i < 90000; i++) {
             podcast.reproducir();
         }
 
+        cancion.setTitulo("Forever");
+        cancion.setCantante("Kiss");
+        reproducciones.adicioneReproducciones(cancion);
         System.out.println("Total de reproducciones: " + cancion.getTotalDeReproducciones());
+        meGustas.adicioneMeGustas(cancion);
         System.out.println("Total de me gusta: " + cancion.getTotalDeMeGusta());
 
+
+//        cancion.aumentarMeGusta();
+//        cancion.reproducirCancion();
+
+        podcast.setPresentador("CAfe.tech");
+        podcast.setTitulo("El Señor");
+        reproducciones.adicioneReproducciones(podcast);
         System.out.println("Total de reproducciones: " + podcast.getTotalDeReproducciones());
+        meGustas.adicioneMeGustas(podcast);
         System.out.println("Total de me gusta: " + podcast.getTotalDeMeGusta());
+
+
 
     }
 
