@@ -2,6 +2,10 @@ package com.aluracursos.AppAudio.modelos;
 
 public class MisFavoritos {
 
+    public void opcionesCancion (Cancion cancion){
+
+    }
+
     public void adicioneReproducciones(Audio play){
         if(play.getClasificacionReproducciones()  >= 5){
             System.out.println(play.getTitulo() + " Es uno de los favoritos del momento:");

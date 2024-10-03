@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9043aeaf-ec3c-4100-ac94-6c89b14db372" name="Changes" comment="terminado, pendiente mejoras">
+    <list default="true" id="9043aeaf-ec3c-4100-ac94-6c89b14db372" name="Changes" comment="mejoras en la clasificacion de reproducciones y likes en rangos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Audio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Cancion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/MisFavoritos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/MisFavoritos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Podcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/modelos/Podcast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/AppAudio/principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727882129867</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mejoras en la clasificacion de reproducciones y likes en rangos">
+      <option name="closed" value="true" />
+      <created>1727962910867</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727962910867</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +112,7 @@
     <MESSAGE value="creacion de metodos reproducir y megusta" />
     <MESSAGE value="class cancion y podcast se agregan nuevos atributos y se vuelven extenciones de la clase audio" />
     <MESSAGE value="terminado, pendiente mejoras" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminado, pendiente mejoras" />
+    <MESSAGE value="mejoras en la clasificacion de reproducciones y likes en rangos" />
+    <option name="LAST_COMMIT_MESSAGE" value="mejoras en la clasificacion de reproducciones y likes en rangos" />
   </component>
 </project>

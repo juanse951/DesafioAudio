@@ -27,8 +27,8 @@ public class Principal {
             podcast.reproducir();
         }
 
-        cancion.setTitulo("Forever");
-        cancion.setCantante("Kiss");
+        cancion.setTitulo("Forever:");
+        cancion.setCantante("Kiss:");
         reproducciones.adicioneReproducciones(cancion);
         System.out.println("Total de reproducciones: " + cancion.getTotalDeReproducciones());
         meGustas.adicioneMeGustas(cancion);
@@ -38,8 +38,8 @@ public class Principal {
 //        cancion.aumentarMeGusta();
 //        cancion.reproducirCancion();
 
-        podcast.setPresentador("CAfe.tech");
-        podcast.setTitulo("El Señor");
+        podcast.setPresentador("CAfe.tech:");
+        podcast.setTitulo("El Señor:");
         reproducciones.adicioneReproducciones(podcast);
         System.out.println("Total de reproducciones: " + podcast.getTotalDeReproducciones());
         meGustas.adicioneMeGustas(podcast);

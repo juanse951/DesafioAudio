@@ -6,7 +6,6 @@ public class Cancion extends Audio{
     private String cantante;
     private String genero;
 
-
     public String getAlbum() {
         return album;
     }
